@@ -1,33 +1,185 @@
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-50">
-      <section className="mx-auto max-w-6xl px-6 py-32">
-        <h1 className="text-6xl font-bold text-slate-900">
-          Jon Wheeler
-        </h1>
+    <main className="min-h-screen bg-slate-50 text-slate-900">
+      {/* Navigation */}
 
-        <h2 className="mt-6 text-2xl text-slate-600">
-          Automotive Market Insight | Residual Values |
-          Vehicle Valuation & Consultancy
-        </h2>
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <div>
+            <p className="text-xl font-bold">JonWheeler.UK</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
+              Automotive Market Insight
+            </p>
+          </div>
 
-        <p className="mt-10 max-w-3xl text-lg leading-8 text-slate-600">
-          Automotive market analyst, residual value specialist,
-          OEM consultant, Fleet World Awards Judge and industry
-          commentator with extensive experience supporting
-          manufacturers, leasing companies and automotive
-          organisations across the UK.
-        </p>
+          <nav className="hidden gap-8 md:flex">
+            <a href="#about" className="text-slate-600 hover:text-slate-900">
+              About
+            </a>
+            <a href="#career" className="text-slate-600 hover:text-slate-900">
+              Career
+            </a>
+            <a
+              href="#expertise"
+              className="text-slate-600 hover:text-slate-900"
+            >
+              Expertise
+            </a>
+          </nav>
 
-        <div className="mt-10">
           <a
             href="https://www.linkedin.com/in/jon-wheeler-9747a154/"
             target="_blank"
             rel="noreferrer"
-            className="inline-block rounded-xl bg-slate-900 px-6 py-4 text-white"
+            className="rounded-xl bg-slate-900 px-5 py-3 text-white"
           >
-            Connect on LinkedIn
+            LinkedIn
           </a>
+        </div>
+      </header>
+
+      {/* Hero */}
+
+      <section className="mx-auto max-w-7xl px-6 py-24 lg:py-32">
+        <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
+          <div>
+            <span className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white">
+              Automotive Industry Professional
+            </span>
+
+            <h1 className="mt-8 text-5xl font-bold tracking-tight lg:text-7xl">
+              Jon Wheeler
+            </h1>
+
+            <h2 className="mt-6 text-2xl text-slate-600 lg:text-3xl">
+              Automotive Market Insight | Residual Values | Vehicle Valuation &
+              Consultancy
+            </h2>
+
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-600">
+              Automotive market analyst, residual value specialist, OEM
+              consultant, Fleet World Awards Judge and industry commentator with
+              extensive experience supporting manufacturers, leasing companies
+              and automotive organisations across the UK.
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="https://www.linkedin.com/in/jon-wheeler-9747a154/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl bg-slate-900 px-6 py-4 font-medium text-white"
+              >
+                Connect on LinkedIn
+              </a>
+
+              <a
+                href="#about"
+                className="rounded-xl border border-slate-300 bg-white px-6 py-4 font-medium"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+
+          <div className="flex justify-center">
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl">
+              <img
+                src="/images/jon-wheeler.jpg"
+                alt="Jon Wheeler"
+                className="h-[500px] w-[420px] object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About */}
+
+      <section
+        id="about"
+        className="border-t border-slate-200 bg-white py-24"
+      >
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-16 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium">
+                About
+              </span>
+
+              <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+                From Automotive Enthusiast to Industry Specialist
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-slate-600">
+                A career built from genuine enthusiasm for vehicles,
+                progressing through commercial leadership, automotive trade
+                experience and into vehicle valuation, residual value
+                forecasting and consultancy.
+              </p>
+            </div>
+
+            <div className="space-y-6 text-lg leading-8 text-slate-600">
+              <p>
+                My passion for vehicles began long before my professional
+                career. From an early age I developed a strong interest in
+                cars, motorcycles and automotive engineering.
+              </p>
+
+              <p>
+                Over the years I have owned a wide range of vehicles alongside a
+                Kawasaki ZX6 road bike and a Honda Fireblade track bike. That
+                enthusiasm for the automotive industry ultimately became a
+                profession.
+              </p>
+
+              <p>
+                I started working at the age of sixteen while studying at
+                college and spent the following twelve years developing
+                customer-facing, commercial and leadership experience within the
+                retail sector.
+              </p>
+
+              <p>
+                Following a move into a specialist automotive trade role, I
+                joined CDL Vehicle Information Services in 2016 as a Vehicle
+                Valuation Manager, working directly with vehicle values, market
+                movements and residual value performance.
+              </p>
+
+              <p>
+                Today I lead Vehicle Valuation Services, combining automotive
+                market intelligence, residual value forecasting, OEM
+                consultancy, vehicle data management and people leadership.
+              </p>
+
+              <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8">
+                <h3 className="text-xl font-bold text-slate-900">
+                  Areas of Focus
+                </h3>
+
+                <div className="mt-6 flex flex-wrap gap-3">
+                  {[
+                    "Residual Values",
+                    "Vehicle Valuation",
+                    "Market Intelligence",
+                    "OEM Consultancy",
+                    "Automotive Data",
+                    "Forecasting",
+                    "Used Car Markets",
+                    "Fleet Sector Insight",
+                  ].map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
