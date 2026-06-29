@@ -754,7 +754,78 @@ export default function HomePage() {
 
   </div>
 </section>
- 
+ <section
+  id="connect"
+  className="bg-slate-950 py-24 text-white"
+>
+  <div className="mx-auto max-w-5xl px-6 text-center">
+
+    <span className="rounded-full bg-white/10 px-4 py-2 text-sm font-medium">
+      Connect
+    </span>
+
+    <h2 className="mt-6 text-4xl font-bold lg:text-6xl">
+      Let's continue the conversation.
+    </h2>
+
+    <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-300">
+      For professional discussions relating to vehicle valuation,
+      residual values, automotive market intelligence, used vehicle
+      markets and consultancy, connect with me on LinkedIn.
+    </p>
+
+    <div className="mt-12">
+      <a
+        href="https://www.linkedin.com/in/jon-wheeler-9747a154/"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-flex items-center rounded-2xl bg-white px-8 py-5 text-lg font-semibold text-slate-900 transition hover:bg-slate-100"
+      >
+        Connect on LinkedIn
+      </a>
+    </div>
+
+    {/* Footer */}
+
+    <div className="mt-20 border-t border-white/10 pt-10">
+
+      <h3 className="text-2xl font-bold">
+        JonWheeler.UK
+      </h3>
+
+      <p className="mt-4 text-slate-400">
+        Automotive Market Insight • Residual Values •
+        Vehicle Valuation • Consultancy
+      </p>
+
+      <div className="mt-8 flex flex-wrap justify-center gap-3">
+
+        {[
+          "Residual Values",
+          "Market Intelligence",
+          "OEM Consultancy",
+          "Fleet World Awards",
+          "Research",
+          "Industry Commentary",
+        ].map((item) => (
+          <span
+            key={item}
+            className="rounded-full border border-white/20 px-4 py-2 text-sm"
+          >
+            {item}
+          </span>
+        ))}
+
+      </div>
+
+      <p className="mt-10 text-sm text-slate-500">
+        © {new Date().getFullYear()} Jon Wheeler. All rights reserved.
+      </p>
+
+    </div>
+
+  </div>
+</section>
     </main>
   );
 }
