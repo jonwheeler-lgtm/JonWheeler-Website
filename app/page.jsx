@@ -615,7 +615,6 @@ export default function HomePage() {
   </div>
 </section>
      
-</section>
  <section
   id="connect"
   className="bg-slate-950 py-24 text-white"
