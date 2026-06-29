@@ -644,19 +644,27 @@ export default function HomePage() {
         </span>
 
         <h3 className="mt-6 text-2xl font-bold">
-          Remarketing: Every Which Way
-        </h3>
+  Remarketing: Every Which Way
+</h3>
 
-        <p className="mt-2 text-sm text-slate-500">
-          Business Car
-        </p>
+<p className="mt-2 text-sm text-slate-500">
+  Business Car
+</p>
 
-        <p className="mt-4 leading-7 text-slate-600">
-          Analysis exploring used vehicle supply, fleet demand
-          and the competing pressures affecting remarketing
-          activity and residual values.
-        </p>
-      </div>
+<p className="mt-4 leading-7 text-slate-600">
+  Analysis exploring used vehicle supply, fleet demand
+  and the competing pressures affecting remarketing
+  activity and residual values.
+</p>
+
+<a
+  href="https://www.businesscar.co.uk/analysis/remarketing-every-which-way/"
+  target="_blank"
+  rel="noreferrer"
+  className="mt-6 inline-block font-semibold text-slate-900 hover:underline"
+>
+  Read Article →
+</a>
 
       <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
         <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
