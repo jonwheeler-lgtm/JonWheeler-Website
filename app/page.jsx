@@ -469,6 +469,151 @@ export default function HomePage() {
 
   </div>
 </section>
+      <section
+  id="research"
+  className="border-t border-slate-200 bg-white py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium">
+        Research & Market Intelligence
+      </span>
+
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Market insight driven by analysis, forecasting and industry experience.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-600">
+        Research forms a key part of how I evaluate vehicle values,
+        market opportunity and future automotive trends. Combining
+        valuation expertise with wider economic, regulatory and
+        consumer data creates a more complete understanding of
+        future market performance.
+      </p>
+    </div>
+
+    <div className="mt-16 grid gap-8 lg:grid-cols-2">
+
+      {/* Card 1 */}
+
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+        <div className="flex items-center justify-between">
+          <span className="text-5xl">⛽</span>
+
+          <span className="rounded-full bg-white px-4 py-2 text-sm font-medium border border-slate-200">
+            Market Intelligence
+          </span>
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Fuel Price Shocks & Used Vehicle Valuations
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Analysis examining how fuel price volatility,
+          inflation, geopolitical disruption and consumer
+          confidence influence used vehicle demand and
+          residual values.
+        </p>
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          {[
+            "Fuel Costs",
+            "Consumer Demand",
+            "Residual Values",
+            "Inflation",
+            "Forecasting",
+          ].map((item) => (
+            <span
+              key={item}
+              className="rounded-full border border-slate-300 bg-white px-3 py-2 text-sm"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Card 2 */}
+
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+        <div className="flex items-center justify-between">
+          <span className="text-5xl">🛻</span>
+
+          <span className="rounded-full bg-white px-4 py-2 text-sm font-medium border border-slate-200">
+            OEM Consultancy
+          </span>
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Toyota Hilux Market Assessment
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Assessment of UK pick-up market dynamics,
+          competitor positioning, taxation changes,
+          volume strategy and residual value implications
+          for new vehicle programmes.
+        </p>
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          {[
+            "OEM Strategy",
+            "Market Positioning",
+            "Pricing",
+            "Residual Values",
+            "Volume Planning",
+          ].map((item) => (
+            <span
+              key={item}
+              className="rounded-full border border-slate-300 bg-white px-3 py-2 text-sm"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+    </div>
+
+    {/* Bottom panel */}
+
+    <div className="mt-16 rounded-3xl bg-slate-900 p-10 text-white">
+      <h3 className="text-2xl font-bold">
+        Research Areas
+      </h3>
+
+      <p className="mt-4 max-w-4xl text-slate-300 leading-8">
+        My research focuses on understanding the relationship
+        between vehicle values, market demand, economic
+        performance, taxation, supply constraints, product
+        strategy and wider automotive market developments.
+      </p>
+
+      <div className="mt-8 flex flex-wrap gap-3">
+        {[
+          "Residual Values",
+          "Used Vehicle Markets",
+          "Consumer Behaviour",
+          "Automotive Forecasting",
+          "Market Intelligence",
+          "Inflation",
+          "OEM Strategy",
+          "Fleet Sector Trends",
+        ].map((item) => (
+          <span
+            key={item}
+            className="rounded-full border border-white/20 px-4 py-2 text-sm"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
     </main>
   );
 }
