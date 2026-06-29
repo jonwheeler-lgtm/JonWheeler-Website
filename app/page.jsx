@@ -182,6 +182,174 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section
+  id="career"
+  className="border-t border-slate-200 bg-slate-50 py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-white px-4 py-2 text-sm font-medium">
+        Career Journey
+      </span>
+
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Building a career through passion, leadership and market expertise.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-600">
+        A professional journey spanning retail leadership,
+        automotive trade experience and vehicle valuation.
+      </p>
+    </div>
+
+    <div className="mt-16 space-y-8">
+
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
+          Age 16
+        </p>
+        <h3 className="mt-2 text-2xl font-bold">
+          Retail Industry
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Started working while studying at college,
+          developing customer service and commercial skills.
+        </p>
+      </div>
+
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
+          12 Years
+        </p>
+        <h3 className="mt-2 text-2xl font-bold">
+          Retail Leadership
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Progressed through increasingly responsible
+          customer-facing and management roles.
+        </p>
+      </div>
+
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
+          Automotive Trade
+        </p>
+        <h3 className="mt-2 text-2xl font-bold">
+          Trade Specialist
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Developed industry expertise and a deeper
+          understanding of vehicle markets.
+        </p>
+      </div>
+
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
+          2016
+        </p>
+        <h3 className="mt-2 text-2xl font-bold">
+          Vehicle Valuation Manager
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Joined CDL Vehicle Information Services,
+          working directly with vehicle values,
+          residual values and used market dynamics.
+        </p>
+      </div>
+
+      <div className="rounded-3xl bg-slate-900 p-8 text-white">
+        <p className="text-sm uppercase tracking-[0.2em] text-slate-300">
+          2017 - Present
+        </p>
+        <h3 className="mt-2 text-2xl font-bold">
+          Head of Vehicle Valuation Services
+        </h3>
+        <p className="mt-4 text-slate-300">
+          Leading valuation operations, residual value
+          forecasting, OEM consultancy, market analysis
+          and vehicle data management.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+      <section
+  id="expertise"
+  className="border-t border-slate-200 bg-white py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium">
+        Core Expertise
+      </span>
+
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Supporting the automotive industry through data,
+        insight and market expertise.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-600">
+        Combining vehicle valuation, residual value
+        forecasting, automotive market intelligence and
+        consultancy to help organisations make better
+        decisions.
+      </p>
+    </div>
+
+    <div className="mt-16 grid gap-8 md:grid-cols-2">
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <h3 className="text-2xl font-bold">
+          📈 Residual Value Forecasting
+        </h3>
+
+        <p className="mt-4 text-slate-600 leading-7">
+          Supporting manufacturers, leasing companies
+          and automotive stakeholders with future value
+          forecasting and strategic advice.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <h3 className="text-2xl font-bold">
+          🚗 Automotive Market Intelligence
+        </h3>
+
+        <p className="mt-4 text-slate-600 leading-7">
+          Analysis of supply, demand, economic conditions
+          and consumer behaviour affecting vehicle values.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <h3 className="text-2xl font-bold">
+          🤝 OEM Consultancy
+        </h3>
+
+        <p className="mt-4 text-slate-600 leading-7">
+          Supporting vehicle manufacturers with product
+          positioning, pricing strategy and residual value
+          optimisation.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <h3 className="text-2xl font-bold">
+          📊 Research & Analytics
+        </h3>
+
+        <p className="mt-4 text-slate-600 leading-7">
+          Developing forecasting models, market analysis
+          and strategic insight around future automotive
+          market developments.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
     </main>
   );
 }
