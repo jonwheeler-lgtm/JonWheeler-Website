@@ -614,6 +614,147 @@ export default function HomePage() {
 
   </div>
 </section>
+     <section
+  id="articles"
+  className="border-t border-slate-200 bg-slate-50 py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-white px-4 py-2 text-sm font-medium border border-slate-200">
+        Commentary & Articles
+      </span>
+
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Published insight, commentary and market analysis.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-600">
+        A collection of published articles, research papers and
+        market commentary covering vehicle valuation, residual
+        values, used vehicle markets and wider automotive trends.
+      </p>
+    </div>
+
+    <div className="mt-16 grid gap-8 lg:grid-cols-2">
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+          Remarketing
+        </span>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Remarketing: Every Which Way
+        </h3>
+
+        <p className="mt-2 text-sm text-slate-500">
+          Business Car
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Analysis exploring used vehicle supply, fleet demand
+          and the competing pressures affecting remarketing
+          activity and residual values.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+          Remarketing
+        </span>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Remarketing: Twin Peaks
+        </h3>
+
+        <p className="mt-2 text-sm text-slate-500">
+          Business Car
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Commentary examining vehicle value performance,
+          market conditions and developing used vehicle trends.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+          Market Overview
+        </span>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          UK Car Market Overview
+        </h3>
+
+        <p className="mt-2 text-sm text-slate-500">
+          LinkedIn Commentary Series
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Regular analysis of vehicle valuation trends,
+          consumer demand, supply levels and automotive
+          market performance.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+          Industry Commentary
+        </span>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          CDL Valuation Market Commentary
+        </h3>
+
+        <p className="mt-2 text-sm text-slate-500">
+          FleetPoint & Automotive Industry Publications
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          Commentary and analysis focused on residual values,
+          used vehicle transactions and wider market developments.
+        </p>
+      </div>
+
+    </div>
+
+    <div className="mt-16 rounded-3xl bg-white border border-slate-200 p-10">
+
+      <h3 className="text-2xl font-bold">
+        Publications & Contributions
+      </h3>
+
+      <p className="mt-4 max-w-4xl leading-8 text-slate-600">
+        Contributions and commentary featured through a range of
+        automotive and fleet publications, covering residual values,
+        vehicle valuation, remarketing and automotive market trends.
+      </p>
+
+      <div className="mt-8 flex flex-wrap gap-3">
+        {[
+          "Business Car",
+          "FleetPoint",
+          "Automotive World",
+          "Fleet World",
+          "LinkedIn",
+          "Residual Values",
+          "Remarketing",
+          "Market Analysis"
+        ].map((item) => (
+          <span
+            key={item}
+            className="rounded-full bg-slate-100 px-4 py-2 text-sm"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
+
+    </div>
+
+  </div>
+</section>
+ 
     </main>
   );
 }
