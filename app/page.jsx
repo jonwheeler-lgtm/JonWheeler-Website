@@ -726,37 +726,6 @@ export default function HomePage() {
 
     </div>
 
-    <div className="mt-16 rounded-3xl bg-white border border-slate-200 p-10">
-
-      <h3 className="text-2xl font-bold">
-        Publications & Contributions
-      </h3>
-
-      <p className="mt-4 max-w-4xl leading-8 text-slate-600">
-        Contributions and commentary featured through a range of
-        automotive and fleet publications, covering residual values,
-        vehicle valuation, remarketing and automotive market trends.
-      </p>
-
-      <div className="mt-8 flex flex-wrap gap-3">
-  {[
-    "Business Car",
-    "FleetPoint",
-    "Automotive World",
-    "Fleet World",
-    "LinkedIn",
-    "Residual Values",
-    "Remarketing",
-    "Market Analysis"
-  ].map((item) => (
-    <span
-      key={item}
-      className="rounded-full bg-slate-100 px-4 py-2 text-sm"
-    >
-      {item}
-    </span>
-  ))}
-</div>
     
 </section>
  <section
