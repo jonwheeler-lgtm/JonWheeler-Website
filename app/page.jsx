@@ -739,26 +739,24 @@ export default function HomePage() {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-3">
-        {[
-          "Business Car",
-          "FleetPoint",
-          "Automotive World",
-          "Fleet World",
-          "LinkedIn",
-          "Residual Values",
-          "Remarketing",
-          "Market Analysis"
-        ].map((item) => (
-          <span
-            key={item}
-            className="rounded-full bg-slate-100 px-4 py-2 text-sm"
-          >
-            {item}
-          </span>
-        ))}
-      </div>
-
-    </div>
+  {[
+    "Business Car",
+    "FleetPoint",
+    "Automotive World",
+    "Fleet World",
+    "LinkedIn",
+    "Residual Values",
+    "Remarketing",
+    "Market Analysis"
+  ].map((item) => (
+    <span
+      key={item}
+      className="rounded-full bg-slate-100 px-4 py-2 text-sm"
+    >
+      {item}
+    </span>
+  ))}
+</div>
     
 </section>
  <section
