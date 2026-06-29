@@ -350,6 +350,125 @@ export default function HomePage() {
     </div>
   </div>
 </section>
+      <section
+  id="contributions"
+  className="border-t border-slate-200 bg-slate-900 py-24 text-white"
+>
+  <div className="mx-auto max-w-7xl px-6">
+
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-white/10 px-4 py-2 text-sm font-medium">
+        Industry Contributions
+      </span>
+
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Contributing to the wider automotive industry.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-300">
+        Beyond day-to-day valuation and consultancy work, I regularly
+        contribute to industry discussion, vehicle assessment and
+        market commentary through recognised automotive publications
+        and industry initiatives.
+      </p>
+    </div>
+
+    <div className="mt-16 grid gap-8 lg:grid-cols-3">
+
+      <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+        <div className="text-5xl">🏆</div>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Fleet World Awards Judge
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-300">
+          Selected as a Fleet World Awards Judge, assessing vehicles
+          across multiple categories using criteria including
+          fleet suitability, whole-life costs, quality,
+          desirability and residual value performance.
+        </p>
+
+        <ul className="mt-6 space-y-2 text-slate-200">
+          <li>• Fleet suitability</li>
+          <li>• Whole-life costs</li>
+          <li>• Residual values</li>
+          <li>• Product quality</li>
+          <li>• Market competitiveness</li>
+        </ul>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+        <div className="text-5xl">📋</div>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Fleet World SWOT Contributor
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-300">
+          Regular contributor to Fleet World SWOT analysis features,
+          providing independent market commentary, residual value
+          expertise and insight into manufacturer positioning within
+          the UK automotive market.
+        </p>
+
+        <ul className="mt-6 space-y-2 text-slate-200">
+          <li>• Manufacturer analysis</li>
+          <li>• Market positioning</li>
+          <li>• Residual values</li>
+          <li>• Industry insight</li>
+        </ul>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+        <div className="text-5xl">📰</div>
+
+        <h3 className="mt-6 text-2xl font-bold">
+          Published Commentary
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-300">
+          Contributor to automotive and fleet industry content,
+          sharing commentary on residual values, used vehicle
+          markets, remarketing and wider automotive trends.
+        </p>
+
+        <ul className="mt-6 space-y-2 text-slate-200">
+          <li>• Business Car</li>
+          <li>• FleetPoint</li>
+          <li>• Automotive World</li>
+          <li>• LinkedIn Articles</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div className="mt-16 rounded-3xl bg-white/5 p-10">
+      <h3 className="text-2xl font-bold">
+        Areas of Industry Involvement
+      </h3>
+
+      <div className="mt-6 flex flex-wrap gap-3">
+        {[
+          "Fleet World Awards Judge",
+          "Fleet World SWOT Contributor",
+          "Residual Values",
+          "OEM Consultancy",
+          "Market Intelligence",
+          "Automotive Commentary"
+        ].map((item) => (
+          <span
+            key={item}
+            className="rounded-full border border-white/20 px-4 py-2 text-sm"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
     </main>
   );
 }
