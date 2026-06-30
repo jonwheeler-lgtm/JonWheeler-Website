@@ -800,6 +800,14 @@ export default function HomePage() {
         />
       </div>
 
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo6.jpg"
+          alt="Automotive industry event photo 6"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
     </div>
   </div>
 </section>
