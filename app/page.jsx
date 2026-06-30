@@ -736,7 +736,7 @@ export default function HomePage() {
 </div>
 </section>
       
- <section
+<section
   id="connect"
   className="bg-slate-950 py-24 text-white"
 >
@@ -747,13 +747,13 @@ export default function HomePage() {
     </span>
 
     <h2 className="mt-6 text-4xl font-bold lg:text-6xl">
-      Let's continue the conversation.
+      Let's Continue The Conversation
     </h2>
 
     <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-300">
-      For professional discussions relating to vehicle valuation,
-      residual values, automotive market intelligence, used vehicle
-      markets and consultancy, connect with me on LinkedIn.
+      For professional discussions relating to residual values,
+      vehicle valuation, automotive market intelligence, OEM
+      consultancy and industry commentary, connect with me on LinkedIn.
     </p>
 
     <div className="mt-12">
@@ -776,19 +776,19 @@ export default function HomePage() {
       </h3>
 
       <p className="mt-4 text-slate-400">
-        Automotive Market Insight • Residual Values •
-        Vehicle Valuation • Consultancy
+        Automotive Market Insight • Residual Values • Vehicle Valuation • Consultancy
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-3">
 
         {[
           "Residual Values",
+          "Vehicle Valuation",
           "Market Intelligence",
           "OEM Consultancy",
-          "Fleet World Awards",
-          "Research",
+          "Fleet World Awards Judge",
           "Industry Commentary",
+          "Research & Analysis",
         ].map((item) => (
           <span
             key={item}
@@ -807,7 +807,8 @@ export default function HomePage() {
     </div>
 
   </div>
-</section>
+</section> 
+
     </main>
   );
 }
