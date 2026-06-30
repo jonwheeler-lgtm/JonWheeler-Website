@@ -1,4 +1,42 @@
+"use client";
+
+import { useState } from "react";
+
 export default function HomePage() {
+const [selectedPhoto, setSelectedPhoto] = useState(null);
+
+const photos = [
+  {
+    src: "/photos/photo1.jpg",
+    alt: "Photo 1",
+    title: "Automotive event"
+  },
+  {
+    src: "/photos/photo2.jpg",
+    alt: "Photo 2",
+    title: "Vehicle activity"
+  },
+  {
+    src: "/photos/photo3.jpg",
+    alt: "Photo 3",
+    title: "Industry engagement"
+  },
+  {
+    src: "/photos/photo4.jpg",
+    alt: "Photo 4",
+    title: "Market activity"
+  },
+  {
+    src: "/photos/photo5.jpg",
+    alt: "Photo 5",
+    title: "Automotive archive"
+  }
+  {
+    src: "/photos/photo6.jpg",
+    alt: "Photo 6",
+    title: "Automotive archive"
+  }
+];
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       {/* Navigation */}
