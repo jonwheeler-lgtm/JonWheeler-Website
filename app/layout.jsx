@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Jon Wheeler | Automotive Market Insight",
+  title: "Jon Wheeler | Automotive Market Analyst & Residual Value Specialist",
   description:
-    "Automotive Market Insight, Residual Values, Vehicle Valuation & Consultancy"
+    "Automotive market analyst, residual value specialist and Head of Vehicle Valuation Services. Industry commentary, research and consultancy across the UK automotive market.",
 };
 
 export default function RootLayout({ children }) {
