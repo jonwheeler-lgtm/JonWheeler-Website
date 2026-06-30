@@ -735,6 +735,58 @@ export default function HomePage() {
 
 </div>
 </section>
+
+<section
+  id="photos"
+  className="border-t border-slate-200 bg-white py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+
+    <h2 className="text-4xl font-bold">
+      Photo Archive
+    </h2>
+
+    <p className="mt-6 text-lg text-slate-600">
+      A selection of industry events, vehicle activity
+      and automotive engagements.
+    </p>
+
+    <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <img
+        src="/photos/photo1.jpg"
+        alt="Photo 1"
+        className="rounded-3xl shadow-lg"
+      />
+
+      <img
+        src="/photos/photo2.jpg"
+        alt="Photo 2"
+        className="rounded-3xl shadow-lg"
+      />
+
+      <img
+        src="/photos/photo3.jpg"
+        alt="Photo 3"
+        className="rounded-3xl shadow-lg"
+      />
+
+      <img
+        src="/photos/photo4.jpg"
+        alt="Photo 4"
+        className="rounded-3xl shadow-lg"
+      />
+
+      <img
+        src="/photos/photo5.jpg"
+        alt="Photo 5"
+        className="rounded-3xl shadow-lg"
+      />
+
+    </div>
+
+  </div>
+</section>      
       
 <section
   id="connect"
