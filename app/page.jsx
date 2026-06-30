@@ -742,51 +742,67 @@ export default function HomePage() {
 >
   <div className="mx-auto max-w-7xl px-6">
 
-    <h2 className="text-4xl font-bold">
-      Photo Archive
-    </h2>
+    <div className="max-w-3xl">
+      <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium">
+        Photo Archive
+      </span>
 
-    <p className="mt-6 text-lg text-slate-600">
-      A selection of industry events, vehicle activity
-      and automotive engagements.
-    </p>
+      <h2 className="mt-6 text-4xl font-bold lg:text-5xl">
+        Industry Events & Automotive Activity
+      </h2>
 
-    <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
-      <img
-        src="/photos/photo1.jpg"
-        alt="Photo 1"
-        className="rounded-3xl shadow-lg"
-      />
-
-      <img
-        src="/photos/photo2.jpg"
-        alt="Photo 2"
-        className="rounded-3xl shadow-lg"
-      />
-
-      <img
-        src="/photos/photo3.jpg"
-        alt="Photo 3"
-        className="rounded-3xl shadow-lg"
-      />
-
-      <img
-        src="/photos/photo4.jpg"
-        alt="Photo 4"
-        className="rounded-3xl shadow-lg"
-      />
-
-      <img
-        src="/photos/photo5.jpg"
-        alt="Photo 5"
-        className="rounded-3xl shadow-lg"
-      />
-
+      <p className="mt-6 text-lg leading-8 text-slate-600">
+        A small collection of photographs from automotive events,
+        vehicle assessments, industry activity and professional
+        engagements.
+      </p>
     </div>
 
+    <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo1.jpg"
+          alt="Automotive industry event photo 1"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo2.jpg"
+          alt="Automotive industry event photo 2"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo3.jpg"
+          alt="Automotive industry event photo 3"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo4.jpg"
+          alt="Automotive industry event photo 4"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+        <img
+          src="/photos/photo5.jpg"
+          alt="Automotive industry event photo 5"
+          className="h-72 w-full object-cover"
+        />
+      </div>
+
+    </div>
   </div>
-</section>      
+</section>
       
 <section
   id="connect"
