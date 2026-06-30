@@ -645,6 +645,35 @@ export default function HomePage() {
 
     </div>
   </div>
+  <div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+
+  <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+    Remarketing
+  </span>
+
+  <h3 className="mt-6 text-2xl font-bold">
+    Remarketing: Twin Peaks
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-500">
+    Business Car
+  </p>
+
+  <p className="mt-4 leading-7 text-slate-600">
+    Commentary examining vehicle value performance,
+    market conditions and changing used vehicle trends.
+  </p>
+
+  <a
+    href="https://www.businesscar.co.uk/analysis/remarketing-twin-peaks/"
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 inline-block font-semibold text-slate-900 hover:underline"
+  >
+    Read Article →
+  </a>
+
+</div>
 </section>
       
  <section
