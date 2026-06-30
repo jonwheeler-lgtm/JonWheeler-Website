@@ -614,7 +614,39 @@ export default function HomePage() {
 
   </div>
 </section>
-     
+
+<section
+  id="articles"
+  className="border-t border-slate-200 bg-slate-50 py-24"
+>
+  <div className="mx-auto max-w-7xl px-6">
+    <h2 className="text-4xl font-bold">
+      Commentary & Articles
+    </h2>
+
+    <div className="mt-10 rounded-3xl border border-slate-200 bg-white p-8">
+
+      <h3 className="text-2xl font-bold">
+        Remarketing: Every Which Way
+      </h3>
+
+      <p className="mt-4 text-slate-600">
+        Analysis exploring used vehicle supply, fleet demand and residual values.
+      </p>
+
+      <a
+        href="https://www.businesscar.co.uk/analysis/remarketing-trading-places/"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-6 inline-block font-semibold text-slate-900"
+      >
+        Read Article →
+      </a>
+
+    </div>
+  </div>
+</section>
+      
  <section
   id="connect"
   className="bg-slate-950 py-24 text-white"
