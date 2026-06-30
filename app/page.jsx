@@ -674,6 +674,36 @@ export default function HomePage() {
   </a>
 
 </div>
+<div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+
+  <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+    Market Overview
+  </span>
+
+  <h3 className="mt-6 text-2xl font-bold">
+    UK Car Market Overview
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-500">
+    LinkedIn Commentary Series
+  </p>
+
+  <p className="mt-4 leading-7 text-slate-600">
+    Regular analysis covering vehicle valuation trends,
+    consumer demand, supply levels and wider automotive
+    market performance.
+  </p>
+
+  <a
+    href="https://www.linkedin.com/pulse/uk-car-market-overview-august-2025-cdl-cheshire-datasystems-ltd--s4pee"
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 inline-block font-semibold text-slate-900 hover:underline"
+  >
+    Read Article →
+  </a>
+
+</div>
 </section>
       
  <section
