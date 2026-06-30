@@ -704,6 +704,36 @@ export default function HomePage() {
   </a>
 
 </div>
+<div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+
+  <span className="rounded-full bg-slate-100 px-4 py-2 text-sm">
+    Industry Commentary
+  </span>
+
+  <h3 className="mt-6 text-2xl font-bold">
+    CDL Freeze in Car Valuations Set to be Unlocked as Transactions Resume
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-500">
+    FleetPoint
+  </p>
+
+  <p className="mt-4 leading-7 text-slate-600">
+    Commentary examining valuation methodology during exceptional
+    market disruption and the return of vehicle transaction activity
+    across the used vehicle market.
+  </p>
+
+  <a
+    href="https://www.fleetpoint.org/carandvannews/car/used-car-purchase/cdl-freeze-in-car-valuations-set-to-be-unlocked-as-transactions-resume/"
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 inline-block font-semibold text-slate-900 hover:underline"
+  >
+    Read Article →
+  </a>
+
+</div>
 </section>
       
  <section
